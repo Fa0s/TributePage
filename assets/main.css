@@ -1,0 +1,175 @@
+.cabecalho{
+    background-color: #020296;
+    height: 7vh;
+}
+
+.saudacao{
+    background: linear-gradient(#020296 40%,#FFFFFF 69%);;
+}
+
+.saudacao_caixa{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 90vw;
+}
+.saudacao_titulo{
+    padding: 5px 0;
+    color: white;
+    font-size: 23px
+}
+
+.saudacao_imagem{
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.saudacao_apelido{
+    background-clip: text;
+    background-image: linear-gradient(to right, #16B83E 23% ,#FFE11F 61%,#1651B8 66%);
+    color: black;
+    font-size:30px;
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent;
+}
+
+.bilbiografia{
+    margin: 20px;
+}
+
+.bilbiografia_texto{
+    line-height: 1.5;
+}
+
+.carreira{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.carreira_titulo{
+    margin:15px ;
+    font-size:26px ;
+}
+
+.carreira_tabela{
+    background-color: #FFFFFF;
+    text-align: center;
+    margin:0 auto;
+    width: 90%;
+}
+
+table.carreira_tabela td, table.carreira_tabela th {
+border: 1px solid #000000;
+padding: 10px 2px;
+}
+
+table.carreira_tabela tbody td {
+font-size: 14px;
+font-weight: bold;
+}
+
+table.carreira_tabela thead {
+    background: #020296;
+    background: -moz-linear-gradient(top, #4141b0 0%, #1b1ba0 66%, #020296 100%);
+    background: -webkit-linear-gradient(top, #4141b0 0%, #1b1ba0 66%, #020296 100%);
+    background: linear-gradient(to bottom, #4141b0 0%, #1b1ba0 66%, #020296 100%);
+}
+
+table.carreira_tabela thead th {
+font-size: 24px;
+font-weight: bold;
+color: #ffffff;
+text-align: center;
+}
+
+.carreira_time{
+    margin: 20px;
+}
+
+.carreira_time-titulo{
+    font-size:26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.carreira_time-texto{
+    line-height: 1.5;    
+
+}
+
+.carreira_lista{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin:20px;
+    list-style: none;
+
+}
+
+.carreira_lista-item{
+    position:relative;
+    margin: 10px 20px;
+    line-height: 1.5;
+}
+.carreira_lista-item::before{
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: -5px;
+    background-image: url(images/pngtree-golden-soccer-trophy-cup-icon-cartoon-style-png-image_2004276.jpg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 29px;
+    height: 30px;
+    
+}
+
+.rodape{
+    background-color: #020296;
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    justify-content: space-between;
+    color:#FFFFFF;
+    font-size:14px;
+    padding: 0 10px;
+    position: relative;
+}
+
+.rodape_link{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    list-style: none;
+   
+}
+
+.rodape_icone{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+    
+.rodape_icone-github{
+    background-image: url(images/github-mark-white.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.rodape_icone-wiki{
+    background-image: url(images/Wikipedia-logo-v2.svg.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+
